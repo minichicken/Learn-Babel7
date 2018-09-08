@@ -1,0 +1,35 @@
+{
+  "name": "learn-babel",
+  "version": "1.0.0",
+  "description": "Learn Babel 7 with nodejs",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "npm run build && node ./dist",
+    "build": "babel -d dist src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minichicken/Learn-Babel7.git"
+  },
+  "keywords": [
+    "Babel7",
+    "NodeJS",
+    "Webpack"
+  ],
+  "author": "Jaeho Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minichicken/Learn-Babel7/issues"
+  },
+  "homepage": "https://github.com/minichicken/Learn-Babel7#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-arrow-functions": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  }
+}
