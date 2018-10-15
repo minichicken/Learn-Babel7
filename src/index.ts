@@ -6,7 +6,8 @@ const port = process.env.PORT || 3000;
 app.set('port', port);
 
 app.get('/', (req, res) => {
-    res.send('gg');
+    let title = 'hello world';
+    res.send(title);
 });
 
 app.listen(port, (err: Error) => {
